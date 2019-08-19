@@ -11,7 +11,7 @@
 #import "AIRGoogleMap.h"
 
 @interface AIRGoogleMapManager : RCTViewManager
-@property (nonatomic, assign) AIRGoogleMap *map;
+@property (nonatomic, weak) AIRGoogleMap *map;
 
 @end
 
